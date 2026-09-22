@@ -1,0 +1,26 @@
+{
+  "model_name": "BioOCR_ResNet34_BiLSTM_CTC",
+  "model_architecture": "BioCRNN_ResNet34_SpatialAttention_CTC",
+  "version": "1.0.0",
+  "num_classes": 128,
+  "input_channels": 1,
+  "hidden_size": 256,
+  "num_lstm_layers": 2,
+  "dataset": "Biomedical PDF Medical Prescriptions & Reports",
+  "dataset_size": 1000,
+  "epochs_trained": 20,
+  "optimizer": "AdamW (lr=0.001)",
+  "lr_scheduler": "CosineAnnealingLR (min_lr=1e-6)",
+  "metrics": {
+    "ctc_loss": 0.1425,
+    "cer": 0.0103,
+    "cer_percentage": "1.03%",
+    "wer": 0.0253,
+    "wer_percentage": "2.53%",
+    "entity_f1_score": 0.9773,
+    "entity_f1_percentage": "97.73%",
+    "icd10_coding_accuracy": 0.9743,
+    "icd10_coding_accuracy_percentage": "97.43%"
+  },
+  "saved_at": "2026-09-23 02:09:57"
+}
