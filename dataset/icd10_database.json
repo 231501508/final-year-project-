@@ -1,0 +1,153 @@
+{
+  "icd10_codes": [
+    {
+      "code": "E11.9",
+      "description": "Type 2 diabetes mellitus without complications",
+      "category": "Endocrine, nutritional and metabolic diseases",
+      "keywords": ["diabetes", "type 2 diabetes", "t2dm", "dm2", "hyperglycemia", "high blood sugar", "diabetic"],
+      "common_medications": ["Metformin", "Glipizide", "Sitagliptin", "Insulin Glargine", "Empagliflozin"],
+      "billing_risk": "Low",
+      "guidelines": "Document HbA1c levels and presence of any microvascular or macrovascular complications."
+    },
+    {
+      "code": "E11.22",
+      "description": "Type 2 diabetes mellitus with diabetic chronic kidney disease",
+      "category": "Endocrine, nutritional and metabolic diseases",
+      "keywords": ["diabetic nephropathy", "t2dm ckd", "diabetic kidney disease"],
+      "common_medications": ["Metformin", "Losartan", "Empagliflozin", "Linagliptin"],
+      "billing_risk": "Moderate",
+      "guidelines": "Code also stage of chronic kidney disease (N18.1-N18.6)."
+    },
+    {
+      "code": "I10",
+      "description": "Essential (primary) hypertension",
+      "category": "Diseases of the circulatory system",
+      "keywords": ["hypertension", "high blood pressure", "hbn", "htn", "essential hypertension", "high bp"],
+      "common_medications": ["Amlodipine", "Lisinopril", "Hydrochlorothiazide", "Telmisartan", "Losartan"],
+      "billing_risk": "Low",
+      "guidelines": "Excludes essential hypertension involving brain, heart, or kidney disease."
+    },
+    {
+      "code": "J45.909",
+      "description": "Unspecified asthma, uncomplicated",
+      "category": "Diseases of the respiratory system",
+      "keywords": ["asthma", "bronchial asthma", "wheezing", "shortness of breath", "reactive airway disease"],
+      "common_medications": ["Albuterol", "Fluticasone", "Budasonide", "Montelukast", "Salmeterol"],
+      "billing_risk": "Low",
+      "guidelines": "Specify severity (intermittent vs persistent) and exacerbation status if documented."
+    },
+    {
+      "code": "J06.9",
+      "description": "Acute upper respiratory infection, unspecified",
+      "category": "Diseases of the respiratory system",
+      "keywords": ["urti", "uri", "acute respiratory infection", "common cold", "viral upper respiratory tract infection"],
+      "common_medications": ["Azithromycin", "Amoxicillin", "Paracetamol", "Decongestant", "Cough Syrup"],
+      "billing_risk": "Low",
+      "guidelines": "Assign for nonspecific viral URIs when pathogen is unconfirmed."
+    },
+    {
+      "code": "K21.9",
+      "description": "Gastro-esophageal reflux disease without esophagitis",
+      "category": "Diseases of the digestive system",
+      "keywords": ["gerd", "acid reflux", "heartburn", "gastroesophageal reflux", "acid indigestion"],
+      "common_medications": ["Omeprazole", "Pantoprazole", "Famotidine", "Esomeprazole", "Ranitidine"],
+      "billing_risk": "Low",
+      "guidelines": "Use K21.0 if endoscopically proven esophagitis is documented."
+    },
+    {
+      "code": "M54.50",
+      "description": "Low back pain, unspecified",
+      "category": "Diseases of the musculoskeletal system",
+      "keywords": ["low back pain", "lumbago", "lumbar strain", "backache", "lower back pain"],
+      "common_medications": ["Ibuprofen", "Naproxen", "Cyclobenzaprine", "Tramadol", "Pregabalin"],
+      "billing_risk": "Low",
+      "guidelines": "Code specific cause (e.g. disc degeneration or sciatica) when available."
+    },
+    {
+      "code": "J18.9",
+      "description": "Pneumonia, unspecified organism",
+      "category": "Diseases of the respiratory system",
+      "keywords": ["pneumonia", "chest infection", "lung infection", "bronchopneumonia"],
+      "common_medications": ["Levofloxacin", "Ceftriaxone", "Amoxicillin-Clavulanate", "Azithromycin"],
+      "billing_risk": "Moderate",
+      "guidelines": "Identify specific bacterial/viral etiology whenever microbiological tests confirm."
+    },
+    {
+      "code": "E78.5",
+      "description": "Hyperlipidemia, unspecified",
+      "category": "Endocrine, nutritional and metabolic diseases",
+      "keywords": ["hyperlipidemia", "high cholesterol", "hypercholesterolemia", "elevated lipids", "dyslipidemia"],
+      "common_medications": ["Atorvastatin", "Rosuvastatin", "Simvastatin", "Ezetimibe", "Fenofibrate"],
+      "billing_risk": "Low",
+      "guidelines": "Use E78.0 for pure hypercholesterolemia or E78.1 for pure hyperglyceridemia."
+    },
+    {
+      "code": "F41.1",
+      "description": "Generalized anxiety disorder",
+      "category": "Mental, Behavioral and Neurodevelopmental disorders",
+      "keywords": ["anxiety", "gad", "generalized anxiety", "anxiety state", "nervous tension"],
+      "common_medications": ["Sertraline", "Escitalopram", "Alprazolam", "Buspirone", "Duloxetine"],
+      "billing_risk": "Low",
+      "guidelines": "Document duration (>6 months) and functional impairment."
+    }
+  ],
+  "cpt_codes": [
+    {
+      "code": "99213",
+      "description": "Office or other outpatient visit for established patient, low medical decision making",
+      "keywords": ["routine visit", "follow up visit", "outpatient consultation", "established patient visit"]
+    },
+    {
+      "code": "99214",
+      "description": "Office or other outpatient visit for established patient, moderate medical decision making",
+      "keywords": ["detailed visit", "complex follow up", "chronic condition review"]
+    },
+    {
+      "code": "93000",
+      "description": "Electrocardiogram, routine ECG with at least 12 leads; with interpretation and report",
+      "keywords": ["ecg", "ekg", "12 lead ecg", "electrocardiogram"]
+    },
+    {
+      "code": "80053",
+      "description": "Comprehensive metabolic panel (CMP)",
+      "keywords": ["cmp", "comprehensive metabolic panel", "blood work", "kidney liver panel"]
+    },
+    {
+      "code": "85025",
+      "description": "Blood count; complete (CBC) automated differential WBC count",
+      "keywords": ["cbc", "complete blood count", "hemogram", "wbc rbc count"]
+    }
+  ],
+  "medications_dictionary": [
+    {"name": "Metformin", "brand": "Glucophage", "default_dosage": "500 mg", "default_freq": "Twice daily", "category": "Antidiabetic"},
+    {"name": "Amlodipine", "brand": "Norvasc", "default_dosage": "5 mg", "default_freq": "Once daily", "category": "Antihypertensive"},
+    {"name": "Lisinopril", "brand": "Prinivil", "default_dosage": "10 mg", "default_freq": "Once daily", "category": "ACE Inhibitor"},
+    {"name": "Atorvastatin", "brand": "Lipitor", "default_dosage": "20 mg", "default_freq": "Once daily at bedtime", "category": "Statin"},
+    {"name": "Omeprazole", "brand": "Prilosec", "default_dosage": "20 mg", "default_freq": "Once daily before breakfast", "category": "Proton Pump Inhibitor"},
+    {"name": "Albuterol", "brand": "ProAir HFA", "default_dosage": "90 mcg", "default_freq": "2 puffs every 4-6 hours PRN", "category": "Bronchodilator"},
+    {"name": "Azithromycin", "brand": "Zithromax", "default_dosage": "250 mg", "default_freq": "Once daily for 5 days", "category": "Antibiotic"},
+    {"name": "Amoxicillin", "brand": "Amoxil", "default_dosage": "500 mg", "default_freq": "Three times daily for 7 days", "category": "Antibiotic"},
+    {"name": "Ibuprofen", "brand": "Advil", "default_dosage": "400 mg", "default_freq": "Every 6 hours PRN pain", "category": "NSAID"},
+    {"name": "Paracetamol", "brand": "Tylenol", "default_dosage": "650 mg", "default_freq": "Every 8 hours PRN fever", "category": "Analgesic"},
+    {"name": "Sertraline", "brand": "Zoloft", "default_dosage": "50 mg", "default_freq": "Once daily in morning", "category": "SSRI"},
+    {"name": "Levofloxacin", "brand": "Levaquin", "default_dosage": "500 mg", "default_freq": "Once daily for 7 days", "category": "Fluoroquinolone"}
+  ],
+  "ocr_error_mappings": {
+    "metfornnin": "Metformin",
+    "metformn": "Metformin",
+    "amlodipin": "Amlodipine",
+    "amlodipine5mg": "Amlodipine 5mg",
+    "lisinopr1l": "Lisinopril",
+    "l1sinopril": "Lisinopril",
+    "atorvastatn": "Atorvastatin",
+    "omepraz0le": "Omeprazole",
+    "albuter0l": "Albuterol",
+    "azithromyc1n": "Azithromycin",
+    "amoxicil1in": "Amoxicillin",
+    "ibupnofen": "Ibuprofen",
+    "paracetam0l": "Paracetamol",
+    "hyper tens1on": "hypertension",
+    "diabtes": "diabetes",
+    "astma": "asthma"
+  }
+}
